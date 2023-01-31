@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+.container .slider .slide {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.container .slider .slide .inner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container .slider .slide .inner .txt {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.container .slider .slide .inner .txt h3 {
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    background: rgb(255, 0, 43);
+    text-align: center;
+    font-family: arial;
+}
+.container .slider .slide .alecia-fox {
+    background: url(./imgs/ALECIA—FOX.jpg);
+    background-position: center;
+    background-size: cover;
+}
